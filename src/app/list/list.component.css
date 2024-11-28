@@ -1,0 +1,27 @@
+.task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-list li {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-list button {
+    background-color: #d9534f;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .task-list button:hover {
+    background-color: #c9302c;
+  }
+  
